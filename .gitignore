@@ -27,6 +27,8 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+tests/reports/*
+!tests/reports/.gitkeep
 
 # Alembic
 alembic/versions/__pycache__/

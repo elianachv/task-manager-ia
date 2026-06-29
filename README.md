@@ -46,6 +46,11 @@ task-manager/
 ├── start.sh
 ├── start.bat
 ├── start.command
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── e2e/
+├── TESTING.md
 └── README.md
 ```
 
@@ -209,10 +214,14 @@ curl -X DELETE http://localhost:8000/tasks/1
 
 ### Pruebas automatizadas
 
-Desde `task-manager/backend`:
+El entorno completo de pruebas está en `tests/` (unitarias, integración y E2E). Consulta **[TESTING.md](TESTING.md)** para instrucciones detalladas.
 
 ```bash
-pytest -v
+cd tests
+source ../backend/venv/bin/activate
+pip install -r requirements-test.txt
+playwright install chromium   # solo para E2E
+pytest -q
 ```
 
 ### Prueba manual end-to-end
