@@ -1,0 +1,30 @@
+start.sh
+  s_dd69beadb54dbe::t_f5a89e3de52528 1-4
+run.py
+  s_dd69beadb54dbe::t_d2d173025fe988 1-189
+README.md
+  s_dd69beadb54dbe::t_e687195158bf9e 45-47
+  s_dd69beadb54dbe::t_f550ff37ea344d 97
+  s_dd69beadb54dbe::t_815e19cd42ae9f 48
+  s_dd69beadb54dbe::t_d183447e372464 80-96,98-118
+start.command
+  s_dd69beadb54dbe::t_98bc1da32c5df0 1-4
+start.bat
+  s_dd69beadb54dbe::t_601118e26683a7 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "91f9515958c093d67050150203fc030a3cc4299b",
+  "prompts": {},
+  "sessions": {
+    "s_dd69beadb54dbe": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "1d755a21-92f8-4727-8f90-586b03b73690",
+        "model": "default"
+      },
+      "human_author": "Eliana Chavez <elianachavezv@gmail.com>"
+    }
+  }
+}
