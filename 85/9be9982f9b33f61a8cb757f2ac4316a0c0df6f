@@ -1,0 +1,60 @@
+tests/reporting.py
+  s_dd69beadb54dbe::t_6c765613409c5c 273-274,276,278
+  s_dd69beadb54dbe::t_e13cb8ad010cd4 87-89
+  s_dd69beadb54dbe::t_9c0addc35a5ec9 1-50,52-57,59-68,70-86,90-272,275,277,279-294
+  s_dd69beadb54dbe::t_7a119ab6ded5f7 69
+  s_dd69beadb54dbe::t_643106772792e2 51,58
+tests/requirements-test.txt
+  s_dd69beadb54dbe::t_068e9c4adf9131 1-7
+tests/unit/test_task_schemas.py
+  s_dd69beadb54dbe::t_3a7ad5aeca837f 1-73
+tests/pytest.ini
+  s_dd69beadb54dbe::t_ef07c5a0687602 8
+  s_dd69beadb54dbe::t_7c86c301455421 1-7,9-12
+tests/e2e/test_ui_tasks.py
+  s_dd69beadb54dbe::t_1f23165f0536b7 96-98
+  s_dd69beadb54dbe::t_de28562a16bd4b 56-57
+  s_dd69beadb54dbe::t_ac2d32a3ff89d2 111-115
+  s_dd69beadb54dbe::t_d8e03fd007074f 42
+  s_dd69beadb54dbe::t_44a383b925b518 110,116,122-128
+  s_dd69beadb54dbe::t_0e827786ca59de 1-41,43-55,58-95,99-109,117-121,129-130
+TESTING.md
+  s_dd69beadb54dbe::t_d4626901156d79 16-24
+  s_dd69beadb54dbe::t_59ffa2adcb44c0 42-58,69,77,81-82,84,87,90-101,104
+  s_dd69beadb54dbe::t_228b47208cd4db 184,187-204
+  s_dd69beadb54dbe::t_445f6755f26815 1-15,25-41,59-68,70-76,78-80,83,85-86,88-89,102-103,105-183,185-186,205-209
+tests/conftest.py
+  s_dd69beadb54dbe::t_485e903bacb93c 1-4,7-8,10-18,20-22,88-169
+  s_dd69beadb54dbe::t_500f696397ecf9 5-6,9,19,23-87
+tests/e2e/conftest.py
+  s_dd69beadb54dbe::t_cfe8a91705bb74 1-5,7-20,23-28,31-50,76-79,81-90,98-108,111-113,116-119,122-126,129,131-136,139-146,148-152,167-170,172-188,190-215
+  s_dd69beadb54dbe::t_398d16d5187914 6,21-22,29-30,51-75,91-97,109-110,114-115,120-121,127-128,130,137-138,147,156,171
+  s_dd69beadb54dbe::t_806717e407bcd8 80
+  s_dd69beadb54dbe::t_eae3cecac851df 153-155,157-166
+  s_dd69beadb54dbe::t_1b57b96bec8a38 189,216-218
+tests/integration/test_tasks_api.py
+  s_dd69beadb54dbe::t_3f0e43c72326e0 1-216
+README.md
+  s_dd69beadb54dbe::t_d3f8a751771cb1 217,220-224
+  s_dd69beadb54dbe::t_999de6a1e19f6b 49-53
+.gitignore
+  s_dd69beadb54dbe::t_a8fb46f771449c 30-31
+tests/run_tests.sh
+  s_dd69beadb54dbe::t_8c10ad3cfaee8c 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "859be9982f9b33f61a8cb757f2ac4316a0c0df6f",
+  "prompts": {},
+  "sessions": {
+    "s_dd69beadb54dbe": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "1d755a21-92f8-4727-8f90-586b03b73690",
+        "model": "default"
+      },
+      "human_author": "Eliana Chavez <elianachavezv@gmail.com>"
+    }
+  }
+}
