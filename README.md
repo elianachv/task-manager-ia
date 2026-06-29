@@ -42,6 +42,10 @@ task-manager/
 │   │   └── app.js
 │   └── index.html
 ├── .gitignore
+├── run.py
+├── start.sh
+├── start.bat
+├── start.command
 └── README.md
 ```
 
@@ -73,7 +77,45 @@ python seed.py
 
 ## Cómo ejecutar
 
-### Backend
+### Opción rápida (recomendada)
+
+Un solo comando levanta backend, frontend y abre el navegador automáticamente.
+
+**macOS / Linux:**
+
+```bash
+cd task-manager
+python3 run.py
+```
+
+O bien:
+
+```bash
+./start.sh
+```
+
+**macOS (doble clic):** abre `start.command`
+
+**Windows:** doble clic en `start.bat` o ejecuta:
+
+```bat
+python run.py
+```
+
+El lanzador hace automáticamente:
+
+1. Crea el entorno virtual si no existe
+2. Instala dependencias la primera vez
+3. Crea `.env` desde `.env.example` si falta
+4. Inicia API en http://127.0.0.1:8000
+5. Inicia frontend en http://127.0.0.1:8080
+6. Abre el navegador
+
+Para detener todo: `Ctrl+C` en la terminal.
+
+### Ejecución manual (paso a paso)
+
+#### Backend
 
 Desde `task-manager/backend` con el entorno virtual activado:
 
